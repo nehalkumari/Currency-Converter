@@ -1,5 +1,6 @@
 // Define country codes for currency
 
+
 const countryList = {
     AED: "AE",
     AFN: "AF",
@@ -221,4 +222,5 @@ btn.addEventListener("click", (evt) => {
 
 window.addEventListener("load", () => {
   updateExchangeRate();
+
 });
